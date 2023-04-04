@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+  *{  
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.topbar{
+    height:50px;
+    width: 100%;
+    background-color: rgb(8, 14, 17);
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+    position: fixed;
+    margin: auto;
+    margin-left: -8px;
+   z-index:999;
+
+}
+.img{
+    margin-left: 13px;
+    margin-top: 4px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.location{
+color: #ffff;
+margin-top: 4px;
+margin-left: 10px;
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 13px;
+}
+
+.vl {
+    border-left: 1px solid rgb(161, 165, 161);
+    height: 23px;
+    margin-top: 2px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+
+
+.fa-circle-chevron-right{
+    color: rgb(96, 94, 94);
+    background-color: #ffff;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.fa-envelope{
+    color: rgb(119, 194, 8);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Emailid{
+    color:#fff;
+    margin-left: 2px;
+}
+.fa-phone{
+    color:rgb(119, 194, 8)
+}
+.rightbar{
+    margin-left: 380px;
+    color:rgb(238, 245, 238);
+}
+.rightbar2{
+    color: #fff;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    line-height: 14px;
+    padding: 5px;
+    background: rgb(9, 179, 9);
+    border-radius: 30px;
+    width: 200px;
+    height:13px;
+}
+.fa-angle-down{
+    justify-content: space-around;
+    padding-left: 16px;
+    color: #fff;
+}
+.header2{
+    height:100px;
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:50px;
+    position: fixed;
+    margin: auto;
+    margin-left: -8px;
+   z-index:999;
+}
+.logoimg{
+    margin-left: 13px;
+    margin-top: 5px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+ 
+}
+.logo{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.vw{
+    border-left: 1px solid rgb(150, 155, 150);
+    height: 23px;
+    margin-left: 22px;
+}
+.input{
+    font-size: 17px;
+    width: 95px;
+    border: none;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: 0px;
+    background-color: #fff;
+}
+.fa-magnifying-glass{
+margin-left:-10px ;
+margin-top: 2px;
+color: #888;
+}
+.element{
+    color:rgb(119, 194, 8);
+    margin-left: 50px;
+
+}
+.elements{
+    margin-left: 36px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-angles-down{
+    margin-left: 3px;
+    margin-top: 8px;
+    font-size: 0.6rem;
+    color: #888;
+}
+.rightside{
+    margin-left: 90px;
+    color: #888;
+}
+.fa-angle-down{
+    font-size: 0.8rem;
+    padding-left:1px ;
+    color:#888;
+}
+.vr{
+    border-left: 1px solid rgb(150, 155, 150);
+    height: 32px;
+    margin-left: 24px;
+    margin-top:-1px ;
+}
+.socialmedia{
+    margin-top: -4px;
+    margin-left: 26px;
+    display: flex;
+    justify-items: space-around;
+
+}
+.fa-facebook-f{
+   color: #888;
+   box-shadow: 0 0 2px #888;
+   margin-right: 12px;
+   background-color: white;
+   border-radius:80%;
+   border: 1px solid grey;
+   padding: 8px;
+   width: 15px;
+   text-shadow: 0.7px 0 0.7px #000;
+}
+.fa-twitter{
+    color: #888;
+    box-shadow: 0 0 2px #888;
+    margin-right: 12px;
+    background-color: white;
+    border-radius:80%;
+    border: 1px solid grey;
+    padding: 8px;
+    width: 15px;
+    text-shadow: 0 0 0.7px #000;
+}
+.fa-linkedin-in{
+    color: #888;
+    box-shadow: 0 0 2px #888;
+    margin-right: 12px;
+    background-color: white;
+    border-radius:80%;
+    border: 1px solid grey;
+    padding: 8px;
+    width: 15px;
+    text-shadow: 0 0 0.7px #000;
+}
+.backgrountext{
+    position: absolute;
+    top: 50%;
+    color: rgb(132, 128, 128);
+    margin-left: 60px;
+    font-size: 50px;
+}
+.p1{
+    position: absolute;
+    top:52%;
+    margin-top:25px;  
+    margin-left: 60px;
+    text-align-last: center;
+    color: rgb(118, 115, 115);
+    font-size: 50px;
+
+}
+.p2{
+    position: absolute;
+    top:53%;
+    margin-top:75px;  
+    margin-left: 60px;  
+    color: rgb(118, 115, 115);
+    font-size: 55px;
+
+}
+.p3{
+    position: absolute;
+    top:55%;
+    margin-top:120px;  
+    margin-left: 60px;  
+    color: rgb(118, 115, 115);
+    font-size: 55px;
+
+}
+.p4{
+    position: absolute;
+    top:55%;
+    margin-top:223px;  
+    margin-left: 60px;  
+    color: rgb(118, 115, 115);
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.p5{
+    position: absolute;
+    top:55%;
+    margin-top:243px;  
+    margin-left: 60px;  
+    color: rgb(118, 115, 115);
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.backgroundimage{
+    position: relative;
+}
+.backgroundimage{
+    height: 105vh;
+    width: 102%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment:fixed ;
+}
